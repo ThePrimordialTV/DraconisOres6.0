@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <!-- TAU Armor -->
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TauArmorLightCubeGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+      <DisplayName>Tau LightArmorBlock</DisplayName>
+      <Description>Stronger and Lighter than Standard Light Armour</Description>
+      <GuiVisible>false</GuiVisible>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorCornerInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorCornerSquare" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorCornerSquareInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorCornerInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorCornerSquare" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorCornerSquareInverted" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TauArmorLightRampGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
+      <DisplayName>Tau ArmorLightRampGroup</DisplayName>
+      <Description>Stronger and Lighter than Standard Light Armour</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorSlope2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorSlope2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeHalfArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeHalfSlopeArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorHalfSlopeCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorHalfCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorHalfSlopedCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorSlope2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorSlope2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauHalfArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauHalfSlopeArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorHalfSlopeCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorHalfCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorHalfSlopedCorner" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TauArmorLightRampCornerGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
+      <DisplayName>Tau ArmorLightRampCornerGroup</DisplayName>
+      <Description>Stronger and Lighter than Standard Light Armour</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorCorner2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorCorner2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorInvCorner2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorInvCorner2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorHalfSlopeCornerInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorHalfSlopeInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorCorner2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorCorner2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorInvCorner2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorInvCorner2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorHalfSlopeCornerInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorHalfSlopeInverted" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TauArmorLightRoundGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+      <DisplayName>Tau LightRoundArmorSlope</DisplayName>
+      <Description>Stronger and Lighter than Standard Light Armour</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorRoundSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorRoundCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauLargeBlockArmorRoundCornerInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorRoundSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorRoundCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="TauSmallBlockArmorRoundCornerInv" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <!-- DELTA Armor -->
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DeltaArmorHeavyCubeGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+      <DisplayName>Delta HeavyArmorBlock</DisplayName>
+      <Description>Hardened Heavy Armour</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorCornerInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeBlockHeavyArmorCornerSquare" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeBlockHeavyArmorCornerSquareInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorCornerInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallBlockHeavyArmorCornerSquare" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallBlockHeavyArmorCornerSquareInverted" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DeltaArmorHeavyRampGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\HeavySlope2x1x1Base.dds</Icon>
+      <DisplayName>Delta ArmorHeavyRampGroup</DisplayName>
+      <Description>Hardened Heavy Armour</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorSlope2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorSlope2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyHalfArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyHalfSlopeArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeBlockHeavyArmorHalfSlopeCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeBlockHeavyArmorHalfCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeBlockHeavyArmorHalfSlopedCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorSlope2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorSlope2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaHeavyHalfArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaHeavyHalfSlopeArmorBlock" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallBlockHeavyArmorHalfSlopeCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallBlockHeavyArmorHalfCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallBlockHeavyArmorHalfSlopedCorner" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DeltaArmorHeavyRampCornerGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\HeavyCorner2x1x1Base.dds</Icon>
+      <DisplayName>Delta ArmorHeavyRampCornerGroup</DisplayName>
+      <Description>Hardened Heavy Armour</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorCorner2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorCorner2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorInvCorner2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorInvCorner2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeBlockHeavyArmorHalfSlopeCornerInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeBlockHeavyArmorHalfSlopeInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorCorner2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorCorner2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorInvCorner2Base" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorInvCorner2Tip" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallBlockHeavyArmorHalfSlopeCornerInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallBlockHeavyArmorHalfSlopeInverted" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DeltaArmorHeavyRoundGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\HeavyRoundArmorSlope.dds</Icon>
+      <DisplayName>Delta HeavyRoundArmorSlope</DisplayName>
+      <Description>Hardened Heavy Armour</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorRoundSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorRoundCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaLargeHeavyBlockArmorRoundCornerInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorRoundSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorRoundCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="DeltaSmallHeavyBlockArmorRoundCornerInv" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <!-- Epsilon Windows -->
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EpsilonWindowSmallGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Window1x1Inv.dds</Icon>
+      <DisplayName>Epsilon WindowSmallGroup</DisplayName>
+      <Description>Hardened Heavy Glass</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x1Flat" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x1FlatInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x1Slope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x1Flat" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x1FlatInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x1Slope" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EpsilonWindowMediumGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Window1x2Flat.dds</Icon>
+      <DisplayName>Epsilon WindowMediumGroup</DisplayName>
+      <Description>Hardened Heavy Glass</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x2Flat" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x2FlatInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x2Slope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x2Flat" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x2FlatInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x2Slope" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EpsilonWindowLargeGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Window3x3Flat.dds</Icon>
+      <DisplayName>Epsilon WindowLargeGroup</DisplayName>
+      <Description>Hardened Heavy Glass</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow2x3Flat" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow2x3FlatInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow3x3Flat" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow3x3FlatInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow2x3Flat" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow2x3FlatInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow3x3Flat" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow3x3FlatInv" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EpsilonWindowSmallCornerGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
+      <DisplayName>Epsilon WindowSmallCornerGroup</DisplayName>
+      <Description>Hardened Heavy Glass</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x1Face" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x1Inv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x1Side" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x1SideInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x1Face" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x1Inv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x1Side" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x1SideInv" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EpsilonWindowMediumCornerGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Window1x2Face.dds</Icon>
+      <DisplayName>Epsilon WindowMediumCornerGroup</DisplayName>
+      <Description>Hardened Heavy Glass</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x2Face" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x2Inv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x2SideLeft" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x2SideLeftInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x2SideRight" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonWindow1x2SideRightInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x2Face" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x2Inv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x2SideLeft" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x2SideLeftInv" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x2SideRight" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsilonSmallWindow1x2SideRightInv" />
+      </Blocks>
+    </BlockVariantGroup>
+
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EpsilonSolarGroup" />
+      <Icon>Textures\GUI\Icons\Epsilite_SolarPanel.dds</Icon>
+      <DisplayName>Epsilon Solar Panels</DisplayName>
+      <Description>Description_SolarPanel</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="Epsilite_LargeBlockSolarPanel" />
+        <Block Type="MyObjectBuilder_SolarPanel" Subtype="Epsilite_SmallBlockSolarPanel" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <!-- Gases -->
+
+    <!--<BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GasGeneratorGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <DisplayName>DisplayName_Block_OxygenGenerator</DisplayName>
+      <Description>Description_OxygenGenerator</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="" />
+        <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TankGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_TankGroup</DisplayName>
+      <Description>Description_BlockGroup_TankGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmall" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OxygenFarmGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <DisplayName>DisplayName_Block_OxygenFarm</DisplayName>
+      <Description>Description_OxygenFarm</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarm" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirVentGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AirVent.dds</Icon>
+      <DisplayName>DisplayName_Block_AirVent</DisplayName>
+      <Description>Description_AirVent</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_AirVent" Subtype="" />
+        <Block Type="MyObjectBuilder_AirVent" Subtype="SmallAirVent" />
+      </Blocks>
+    </BlockVariantGroup>
+-->
+
+    <!-- Logistics -->
+
+    <!--<BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ContainerGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_ContainerGroup</DisplayName>
+      <Description>Description_BlockGroup_ContainerGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThickGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
+      <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+      <Description>Description_ConveyorTube</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
+        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
+        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThinGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeSmall.dds</Icon>
+      <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
+      <Description>Description_ConveyorTube</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyor" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmall" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallCurved" />
+        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="SmallBlockConveyorSorter" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="InputOutputGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\collector.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_InputOutputGroup</DisplayName>
+      <Description>Description_BlockGroup_InputOutputGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Collector" Subtype="Collector" />
+        <Block Type="MyObjectBuilder_Collector" Subtype="CollectorSmall" />
+        <Block Type="MyObjectBuilder_ShipConnector" Subtype="Connector" />
+        <Block Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorSmall" />
+        <Block Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorMedium" />
+      </Blocks>
+    </BlockVariantGroup>
+-->
+
+    <!-- Control -->
+
+    <!--<BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CockpitGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\CockpitSmall.dds</Icon>
+      <DisplayName>DisplayName_Block_Cockpit2</DisplayName>
+      <Description>Description_ControlStation</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCockpit" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="DBSmallBlockFighterCockpit" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCockpitIndustrial" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitIndustrial" />
+
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OpenCockpitGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\OpenCockpitSmall.dds</Icon>
+      <DisplayName>DisplayName_Block_OpenCockpitSmall</DisplayName>
+      <Description>Description_ControlStation</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="CockpitOpen" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitLarge" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitSmall" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatLarge" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmall" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RemoteControlGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\RemoteControl.dds</Icon>
+      <DisplayName>DisplayName_Block_RemoteControl</DisplayName>
+      <Description>Description_RemoteControl</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_RemoteControl" Subtype="LargeBlockRemoteControl" />
+        <Block Type="MyObjectBuilder_RemoteControl" Subtype="SmallBlockRemoteControl" />
+        <Block Type="MyObjectBuilder_CameraBlock" Subtype="LargeCameraBlock" />
+        <Block Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraBlock" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GyroscopeGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+      <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
+      <Description>Description_Gyroscope</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+        <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro" />
+      </Blocks>
+    </BlockVariantGroup>
+-->
+
+    <!-- Thrusters -->
+
+    <!--<BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterAtmoGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeAtmoThrust</DisplayName>
+      <Description>Description_AtmosphericThrust</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrust" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterHydroGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeHydrogenThrust</DisplayName>
+      <Description>Description_HydrogenThrust</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrust" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterIonGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\thrust_large.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeThrust</DisplayName>
+      <Description>Description_IonThrust</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust" />
+      </Blocks>
+    </BlockVariantGroup>
+-->
+
+    <!-- Landing -->
+
+    <!--<BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ParachuteGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\ParachuteHatch.dds</Icon>
+      <DisplayName>DisplayName_Block_ParachuteHatch</DisplayName>
+      <Description>Description_ParachuteHatch</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Parachute" Subtype="LgParachute" />
+        <Block Type="MyObjectBuilder_Parachute" Subtype="SmParachute" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LandingGearGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\landing_gear.dds</Icon>
+      <DisplayName>DisplayName_Block_LandingGear</DisplayName>
+      <Description>Description_LandingGear</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+        <Block Type="MyObjectBuilder_LandingGear" Subtype="SmallBlockLandingGear" />
+      </Blocks>
+    </BlockVariantGroup>
+-->
+
+    <!-- Wheels -->
+
+    <!--<BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelSuspensionRightGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <DisplayName>DisplayName_Block_Suspension3x3</DisplayName>
+      <Description>Description_Suspension</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension3x3" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension1x1" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension3x3" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension1x1" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelSuspensionLeftGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <DisplayName>DisplayName_Block_Suspension3x3mirrored</DisplayName>
+      <Description>Description_Suspension</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension3x3mirrored" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5mirrored" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension1x1mirrored" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension3x3mirrored" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5mirrored" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension1x1mirrored" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelStaticGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Wheel3x3.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_WheelStaticGroup</DisplayName>
+      <Description>Description_Wheel</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Wheel" Subtype="Wheel1x1" />
+        <Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel1x1" />
+        <Block Type="MyObjectBuilder_Wheel" Subtype="Wheel3x3" />
+        <Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel3x3" />
+        <Block Type="MyObjectBuilder_Wheel" Subtype="Wheel5x5" />
+        <Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel5x5" />
+      </Blocks>
+    </BlockVariantGroup>
+-->
+
+    <!-- Ship Tools-->
+
+    <!--<BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipToolGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_ShipToolGroup</DisplayName>
+      <Description>Description_BlockGroup_ShipToolGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder" />
+        <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder" />
+        <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder" />
+        <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder" />
+        <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
+        <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OreDetectorGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
+      <DisplayName>DisplayName_Block_OreDetector</DisplayName>
+      <Description>Description_OreDetector</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
+        <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
+      </Blocks>
+    </BlockVariantGroup>
+-->
+
+    <!-- Ship Weapons -->
+
+    <!--<BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipWeaponStaticGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\gatling_gun.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_ShipWeaponStaticGroup</DisplayName>
+      <Description>Description_BlockGroup_ShipWeaponStaticGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="LargeMissileLauncher" />
+        <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="" />
+        <Block Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="SmallRocketLauncherReload" />
+        <Block Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+      <Description>Description_BlockGroup_TurretGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="" />
+        <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="SmallGatlingTurret" />
+        <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="" />
+        <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SmallMissileTurret" />
+        <Block Type="MyObjectBuilder_InteriorTurret" Subtype="LargeInteriorTurret" />
+      </Blocks>
+    </BlockVariantGroup>
+
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WarheadGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
+      <DisplayName>DisplayName_Block_Warhead</DisplayName>
+      <Description>Description_Warhead</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Warhead" Subtype="LargeWarhead" />
+        <Block Type="MyObjectBuilder_Warhead" Subtype="SmallWarhead" />
+      </Blocks>
+    </BlockVariantGroup>
+-->
+
+    <!-- Countermeasures -->
+
+    <!--<BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecoyGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\decoy.dds</Icon>
+      <DisplayName>DisplayName_Block_Decoy</DisplayName>
+      <Description>Description_Decoy</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Decoy" Subtype="LargeDecoy" />
+        <Block Type="MyObjectBuilder_Decoy" Subtype="SmallDecoy" />
+      </Blocks>
+    </BlockVariantGroup>
+-->
+
+    <!-- Hangars -->
+
+    <!--<BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BlastDoorGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\ArmorCenter.dds</Icon>
+      <DisplayName>DisplayName_Block_ArmorCenter</DisplayName>
+      <Description>Description_LightArmor</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="ArmorCenter" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="ArmorCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="ArmorInvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="ArmorSide" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorCenter" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorInvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSide" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirtightHangarDoorGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+      <DisplayName>DisplayName_Block_AirtightHangarDoor</DisplayName>
+      <Description>Description_HangarDoor</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="" />
+        <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGate" />
+      </Blocks>
+    </BlockVariantGroup>
+-->
+
+
+
+    <!-- High-Tech (GravGens & JumpDrives)-->
+
+    <!--<BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GravityGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\gravity_generator.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_GravityGroup</DisplayName>
+      <Description>Description_BlockGroup_GravityGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_GravityGenerator" Subtype="" />
+        <Block Type="MyObjectBuilder_GravityGeneratorSphere" Subtype="" />
+        <Block Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassLarge" />
+        <Block Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassSmall" />
+        <Block Type="MyObjectBuilder_SpaceBall" Subtype="SpaceBallLarge" />
+        <Block Type="MyObjectBuilder_SpaceBall" Subtype="SpaceBallSmall" />
+      </Blocks>
+    </BlockVariantGroup>
+-->
+
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DeltaTankGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_TankGroup</DisplayName>
+      <Description>Description_BlockGroup_TankGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="Delta_OxygenTankSmall" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="Delta_OxygenTank" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="Delta_LargeHydrogenTank" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="Delta_LargeHydrogenTankSmall" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="Delta_SmallHydrogenTank" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="Delta_SmallHydrogenTankSmall" />
+      </Blocks>
+    </BlockVariantGroup>
+
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorOPlateGroup" />
+      <Icon>Textures\Icons\MB_ArmourPlateSingle.dds</Icon>
+      <DisplayName>Rounded Heavy Armor Plating</DisplayName>
+      <Description>Heavy-duty armor plating that fits directly ontop of existing armor blocks</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MB_ArmourPlate_Large" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MB_ArmourPlate_Small" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MB_ArmourPlateCenter_Large" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MB_ArmourPlateCenter_Small" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MB_ArmourPlateCorner_Large" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MB_ArmourPlateCorner_Small" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MB_ArmourPlateEdge_Large" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="MB_ArmourPlateEdge_Small" />
+      </Blocks>
+    </BlockVariantGroup>
+  </BlockVariantGroups>
+</Definitions>

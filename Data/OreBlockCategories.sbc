@@ -1,0 +1,321 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+
+    <!-- TAU Armour Blocks -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Ore: Tautanium</DisplayName>
+      <Name>Ore: Tautanium</Name>
+      <StrictSearch>true</StrictSearch>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+        <string>CubeBlock/TauLargeBlockArmorBlock</string>
+        <string>CubeBlock/TauLargeBlockArmorSlope</string>
+        <string>CubeBlock/TauLargeBlockArmorCorner</string>
+        <string>CubeBlock/TauLargeBlockArmorCornerInv</string>
+        <string>CubeBlock/TauLargeBlockArmorRoundedSlope</string>
+        <string>CubeBlock/TauLargeBlockArmorRoundedCorner</string>
+        <string>CubeBlock/TauLargeBlockArmorAngledSlope</string>
+        <string>CubeBlock/TauLargeBlockArmorAngledCorner</string>
+        <string>CubeBlock/TauLargeBlockArmorRoundSlope</string>
+        <string>CubeBlock/TauLargeBlockArmorRoundCorner</string>
+        <string>CubeBlock/TauLargeBlockArmorRoundCornerInv</string>
+        <string>CubeBlock/TauLargeBlockArmorSlope2BaseSmooth</string>
+        <string>CubeBlock/TauLargeBlockArmorRoundSlope</string>
+        <string>CubeBlock/TauLargeBlockArmorSlope2BaseSmooth</string>
+        <string>CubeBlock/TauLargeBlockArmorSlope2TipSmooth</string>
+        <string>CubeBlock/TauLargeBlockArmorCorner2BaseSmooth</string>
+        <string>CubeBlock/TauLargeBlockArmorCorner2TipSmooth</string>
+        <string>CubeBlock/TauLargeBlockArmorInvCorner2BaseSmooth</string>
+        <string>CubeBlock/TauLargeBlockArmorInvCorner2TipSmooth</string>
+        <string>CubeBlock/TauLargeBlockArmorSlope2Base</string>
+        <string>CubeBlock/TauLargeBlockArmorSlope2Tip</string>
+        <string>CubeBlock/TauLargeBlockArmorCorner2Base</string>
+        <string>CubeBlock/TauLargeBlockArmorCorner2Tip</string>
+        <string>CubeBlock/TauLargeBlockArmorInvCorner2Base</string>
+        <string>CubeBlock/TauLargeBlockArmorInvCorner2Tip</string>
+        <string>CubeBlock/TauLargeHalfArmorBlock</string>
+        <string>CubeBlock/TauLargeHalfSlopeArmorBlock</string>
+		<string>CubeBlock/TauLargeBlockArmorCornerSquare</string>
+        <string>CubeBlock/TauLargeBlockArmorCornerSquareInverted</string>
+        <string>CubeBlock/TauLargeBlockArmorHalfCorner</string>
+        <string>CubeBlock/TauLargeBlockArmorHalfSlopeCorner</string>
+        <string>CubeBlock/TauLargeBlockArmorHalfSlopeCornerInverted</string>
+        <string>CubeBlock/TauLargeBlockArmorHalfSlopedCorner</string>
+        <string>CubeBlock/TauLargeBlockArmorHalfSlopedCornerBase</string>
+        <string>CubeBlock/TauLargeBlockArmorHalfSlopeInverted</string>
+        <string>CubeBlock/TauLargeBlockArmorSlopedCorner</string>
+	    <string>CubeBlock/TauLargeBlockArmorSlopedCornerBase</string>
+        <string>CubeBlock/TauLargeBlockArmorSlopedCornerTip</string>
+
+
+
+      </ItemIds>
+    </Category>
+    
+    <!-- DELTA Armour Blocks -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Ore: Delteurium</DisplayName>
+      <Name>Ore: Delteurium</Name>
+      <StrictSearch>true</StrictSearch>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorBlock</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorSlope</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorCorner</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorCornerInv</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorRoundedSlope</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorRoundedCorner</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorAngledSlope</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorAngledCorner</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorRoundSlope</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorRoundCorner</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorRoundCornerInv</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorRoundSlope</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorRoundCorner</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorRoundCornerInv</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorSlope2BaseSmooth</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorSlope2TipSmooth</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorCorner2BaseSmooth</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorCorner2TipSmooth</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorInvCorner2BaseSmooth</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorInvCorner2TipSmooth</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorSlope2Base</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorSlope2Tip</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorCorner2Base</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorCorner2Tip</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorInvCorner2Base</string>
+        <string>CubeBlock/DeltaLargeHeavyBlockArmorInvCorner2Tip</string>
+        <string>CubeBlock/DeltaLargeHeavyHalfArmorBlock</string>
+        <string>CubeBlock/DeltaLargeHeavyHalfSlopeArmorBlock</string>
+        <string>CubeBlock/DeltaLargeBlockHeavyArmorCornerSquare</string>
+        <string>CubeBlock/DeltaLargeBlockHeavyArmorCornerSquareInverted</string>
+        <string>CubeBlock/DeltaLargeBlockHeavyArmorHalfCorner</string>
+        <string>CubeBlock/DeltaLargeBlockHeavyArmorHalfSlopeCorner</string>
+        <string>CubeBlock/DeltaLargeBlockHeavyArmorHalfSlopeCornerInverted</string>
+        <string>CubeBlock/DeltaLargeBlockHeavyArmorHalfSlopedCorner</string>
+        <string>CubeBlock/DeltaLargeBlockHeavyArmorHalfSlopedCornerBase</string>
+        <string>CubeBlock/DeltaLargeBlockHeavyArmorHalfSlopeInverted</string>
+        <string>CubeBlock/DeltaLargeBlockHeavyArmorSlopedCorner</string>
+        <string>CubeBlock/DeltaLargeBlockHeavyArmorSlopedCornerBase</string>
+        <string>CubeBlock/DeltaLargeBlockHeavyArmorSlopedCornerTip</string>
+
+        <string>OxygenTank/Delta_OxygenTankSmall</string>
+        <string>OxygenTank/Delta_OxygenTank</string>
+        <string>OxygenTank/Delta_LargeHydrogenTank</string>
+        <string>OxygenTank/Delta_LargeHydrogenTankSmall</string>
+        <string>OxygenTank/Delta_SmallHydrogenTank</string>
+        <string>OxygenTank/Delta_SmallHydrogenTankSmall</string>
+        <string>OxygenTank/Delta_LargeHydrogenTankIndustrial</string>
+
+
+        <string>ConveyorConnector/DeltaConveyorStraightArmored</string>
+        <string>ConveyorConnector/DeltaConveyorCornerArmored</string>
+        <string>Conveyor/DeltaConveyorTArmored</string>
+        <string>Conveyor/DeltaConveyorXArmored</string>
+        <string>Conveyor/DeltaConveyorElbowArmored</string>
+        <string>Conveyor/DeltaConveyorElbowPassArmored</string>
+        <string>Conveyor/DeltaConveyorEndCapArmored</string>
+        <string>Conveyor/DeltaConveyorJunctionArmored</string>
+        <string>ConveyorSorter/DeltaLargeBlockConveyorSorter</string>
+        
+
+      </ItemIds>
+    </Category>
+    
+    <!-- EPSILON Window Blocks -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Ore: Epsilite</DisplayName>
+      <Name>Ore: Epsilite</Name>
+      <StrictSearch>true</StrictSearch>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+        <string>CubeBlock/EpsilonLargeWindowCen</string>
+        <string>CubeBlock/EpsilonLargeWindowEdge</string>
+        <string>CubeBlock/EpsilonLargeWindowSquare</string>
+        <string>CubeBlock/EpsilonWindow1x1Face</string>
+        <string>CubeBlock/EpsilonWindow1x1Flat</string>
+        <string>CubeBlock/EpsilonWindow1x1FlatInv</string>
+        <string>CubeBlock/EpsilonWindow1x1Inv</string>
+        <string>CubeBlock/EpsilonWindow1x1Side</string>
+        <string>CubeBlock/EpsilonWindow1x1Slope</string>
+        <string>CubeBlock/EpsilonWindow1x2Face</string>
+        <string>CubeBlock/EpsilonWindow1x2Flat</string>
+        <string>CubeBlock/EpsilonWindow1x2FlatInv</string>
+        <string>CubeBlock/EpsilonWindow1x2Inv</string>
+        <string>CubeBlock/EpsilonWindow1x2SideLeft</string>
+        <string>CubeBlock/EpsilonWindow1x2SideRight</string>
+        <string>CubeBlock/EpsilonWindow1x2Slope</string>
+        <string>CubeBlock/EpsilonWindow2x3Flat</string>
+        <string>CubeBlock/EpsilonWindow2x3FlatInv</string>
+        <string>CubeBlock/EpsilonWindow3x3Flat</string>
+        <string>CubeBlock/EpsilonWindow3x3FlatInv</string>
+
+        <string>SolarPanel/Epsilite_LargeBlockSolarPanel</string>
+        <string>SolarPanel/Epsilite_SmallBlockSolarPanel</string>
+        <!-- Solar Panels
+        <string>SolarPanel/Large_SC_SolarPanel_Center</string>
+        <string>SolarPanel/Large_SC_SolarPanel_InsideSlantTri</string>
+        <string>SolarPanel/Large_SC_SolarPanel_InsideSlantTri2X</string>
+        <string>SolarPanel/Large_SC_SolarPanel_OffsetCorner</string>
+        <string>SolarPanel/Large_SC_SolarPanel_OffsetTri</string>
+        <string>SolarPanel/Large_SC_SolarPanel_OffsetTri2X</string>
+        <string>SolarPanel/Large_SC_SolarPanel_OffsetTri2X_Mirror</string>
+        <string>SolarPanel/Large_SC_SolarPanel_OffsetTriCorner</string>
+        <string>SolarPanel/Large_SC_SolarPanel_Slant2X</string>
+        <string>SolarPanel/Large_SC_SolarPanel_Offset</string>
+        <string>SolarPanel/Large_SC_SolarPanel_Slant</string>
+        <string>SolarPanel/Large_SC_SolarPanel_Curve</string>
+        <string>SolarPanel/Large_SC_SolarPanel_Bowl</string>
+        <string>SolarPanel/Small_SC_SolarPanel_Center</string>
+        <string>SolarPanel/Small_SC_SolarPanel_InsideSlantTri</string>
+        <string>SolarPanel/Small_SC_SolarPanel_InsideSlantTri2X</string>
+        <string>SolarPanel/Small_SC_SolarPanel_OffsetCorner</string>
+        <string>SolarPanel/Small_SC_SolarPanel_OffsetTri</string>
+        <string>SolarPanel/Small_SC_SolarPanel_OffsetTri2X</string>
+        <string>SolarPanel/Small_SC_SolarPanel_OffsetTri2X_Mirror</string>
+        <string>SolarPanel/Small_SC_SolarPanel_OffsetTriCorner</string>
+        <string>SolarPanel/Small_SC_SolarPanel_Slant2X</string>
+        <string>SolarPanel/Small_SC_SolarPanel_Offset</string>
+        <string>SolarPanel/Small_SC_SolarPanel_Slant</string>
+        <string>SolarPanel/Small_SC_SolarPanel_Curve</string>
+        <string>SolarPanel/Small_SC_SolarPanel_Bowl</string>
+        -->
+      </ItemIds>
+    </Category>
+    
+    <!-- LAMBDA JumpDrive Blocks -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Ore: Romulite</DisplayName>
+      <Name>Ore: Romulite</Name>
+      <StrictSearch>true</StrictSearch>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+        <string>LargeSkipDrive</string>
+        <string>LargeMassDrive</string>
+        <string>LargeProtoSkipDrive</string>
+        <string>LargeProtoMassDrive</string>
+        <string>LargeCapacitorBatteryBlock</string>
+        <string>LargeBankBatteryBlock</string>
+        <string>SmallBlockCapacitorBatteryBlock</string>
+        <string>SmallBlockBankBatteryBlock</string>
+      </ItemIds>
+    </Category>
+
+    <!-- Oblivium Armour -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Ore: Oblivium</DisplayName>
+      <Name>Ore: Oblivium</Name>
+      <StrictSearch>true</StrictSearch>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+        <string>ObliviumArmorCenter</string>
+        <string>ObliviumArmorCorner</string>
+        <string>ObliviumArmorInvCorner</string>
+        <string>ObliviumArmorSide</string>
+        <string>ObliviumLargeWarhead</string>
+        <string>ObliviumLargeDecoy</string>
+      </ItemIds>
+    </Category>
+
+    <!-- Abraxium Reactor -->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Ore: Draconium</DisplayName>
+      <Name>Ore: Draconium</Name>
+      <StrictSearch>true</StrictSearch>
+      <IsShipCategory>false</IsShipCategory>
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+        <!-- Ion -->
+        <string>Thrust/SmallBlockSmallThrustDraconium</string>
+        <string>Thrust/SmallBlockLargeThrustDraconium</string>
+        <string>Thrust/LargeBlockSmallThrustDraconium</string>
+        <string>Thrust/LargeBlockLargeThrustDraconium</string>
+        <string>Thrust/SmallBlockSmallThrustSciFiDraconium</string>
+        <string>Thrust/SmallBlockLargeThrustSciFiDraconium</string>
+        <string>Thrust/LargeBlockSmallThrustSciFiDraconium</string>
+        <string>Thrust/LargeBlockLargeThrustSciFiDraconium</string>
+        <string>Thrust/SmallBlockSmallModularThrusterDraconium</string>
+        <string>Thrust/SmallBlockLargeModularThrusterDraconium</string>
+        <string>Thrust/LargeBlockSmallModularThrusterDraconium</string>
+        <string>Thrust/LargeBlockLargeModularThrusterDraconium</string>
+        <string>Thrust/BY_thruster_DZsDraconium</string>
+        <string>Thrust/BY_thruster_DXsDraconium</string>
+        <string>Thrust/BY_thruster_DDsDraconium</string>
+        <string>Thrust/BY_thruster_DZDraconium</string>
+        <string>Thrust/BY_thruster_DDraconiumx</string>
+        <string>Thrust/BY_thruster_DDDraconium</string>
+        <string>Thrust/BY_Thruster_DL_LDraconium</string>
+        <string>Thrust/BY_Thruster_DL_SDraconium</string>
+        <!-- Atmo -->
+        <string>Thrust/SmallBlockSmallAtmosphericThrustDraconium</string>
+        <string>Thrust/SmallBlockLargeAtmosphericThrustDraconium</string>
+        <string>Thrust/LargeBlockSmallAtmosphericThrustDraconium</string>
+        <string>Thrust/LargeBlockLargeAtmosphericThrustDraconium</string>
+        <string>Thrust/LargeBlockLargeAtmosphericThrustSciFiDraconium</string>
+        <string>Thrust/LargeBlockSmallAtmosphericThrustSciFiDraconium</string>
+        <string>Thrust/SmallBlockLargeAtmosphericThrustSciFiDraconium</string>
+        <string>Thrust/SmallBlockSmallAtmosphericThrustSciFiDraconium</string>
+        <string>Thrust/BY_thruster_QZsDraconium</string>
+        <string>Thrust/BY_thruster_QXsDraconium</string>
+        <string>Thrust/BY_thruster_QDsDraconium</string>
+        <string>Thrust/BY_thruster_QZDraconium</string>
+        <string>Thrust/BY_thruster_QDraconiumx</string>
+        <string>Thrust/BY_thruster_QDDraconium</string>
+        <string>Thrust/BY_Thruster_QL_LDraconium</string>
+        <string>Thrust/BY_Thruster_QL_SDraconium</string>
+        <!-- Hydro -->
+        <string>Thrust/SmallBlockSmallHydrogenThrustDraconium</string>
+        <string>Thrust/SmallBlockLargeHydrogenThrustDraconium</string>
+        <string>Thrust/LargeBlockSmallHydrogenThrustDraconium</string>
+        <string>Thrust/LargeBlockLargeHydrogenThrustDraconium</string>
+        <string>Thrust/LargeBlockLargeHydrogenThrustIndustrialDraconium</string>
+        <string>Thrust/LargeBlockSmallHydrogenThrustIndustrialDraconium</string>
+        <string>Thrust/SmallBlockLargeHydrogenThrustIndustrialDraconium</string>
+        <string>Thrust/SmallBlockSmallHydrogenThrustIndustrialDraconium</string>
+        <string>Thrust/BY_thruster_HZsDraconium</string>
+        <string>Thrust/BY_thruster_HXsDraconium</string>
+        <string>Thrust/BY_thruster_HDsDraconium</string>
+        <string>Thrust/BY_thruster_HZDraconium</string>
+        <string>Thrust/BY_thruster_HDraconiumx</string>
+        <string>Thrust/BY_thruster_HDDraconium</string>
+        <string>Thrust/BY_Thruster_HL_LDraconium</string>
+        <string>Thrust/BY_Thruster_HL_SDraconium</string>
+        <!-- Fusion -->
+        <string>Thrust/LG_FusionDriveDraconium</string>
+        <string>Thrust/SG_FusionDriveDraconium</string>
+      </ItemIds>
+    </Category>
+
+
+  </CategoryClasses>
+</Definitions>

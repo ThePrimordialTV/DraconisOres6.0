@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <!-- TauComponent -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>TautaniumComponent</SubtypeId>
+      </Id>
+      <DisplayName>Tautanium Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Tautanium.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\TauPlate2.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>450</MaxIntegrity>
+      <DropProbability>0.95</DropProbability>
+      <Health>53</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>0</MinimumOfferAmount>
+      <MaximumOfferAmount>0</MaximumOfferAmount>
+      <MinimumOrderAmount>0</MinimumOrderAmount>
+      <MaximumOrderAmount>0</MaximumOrderAmount>
+      <CanPlayerOrder>false</CanPlayerOrder>
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+    
+    <!-- DeltaComponent-->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>DelteuriumComponent</SubtypeId>
+      </Id>
+      <DisplayName>Delteurium Rod</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Delteurium.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>150</Mass>
+      <Volume>9</Volume>
+      <Model>Models\Components\DeltaRod2.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>600</MaxIntegrity>
+      <DropProbability>0.95</DropProbability>
+      <Health>53</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>0</MinimumOfferAmount>
+      <MaximumOfferAmount>0</MaximumOfferAmount>
+      <MinimumOrderAmount>0</MinimumOrderAmount>
+      <MaximumOrderAmount>0</MaximumOrderAmount>
+      <CanPlayerOrder>false</CanPlayerOrder>
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+    
+    <!-- EpsilonComponent -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>EpsiliteComponent</SubtypeId>
+      </Id>
+      <DisplayName>Epsilite Glass</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Epsilite.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>26</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\DrPlate.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>250</MaxIntegrity>
+      <DropProbability>0.95</DropProbability>
+      <Health>53</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>0</MinimumOfferAmount>
+      <MaximumOfferAmount>0</MaximumOfferAmount>
+      <MinimumOrderAmount>0</MinimumOrderAmount>
+      <MaximumOrderAmount>0</MaximumOrderAmount>
+      <CanPlayerOrder>false</CanPlayerOrder>
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+	
+    <!-- KaelniumComponent -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>KaelniumComponent</SubtypeId>
+      </Id>
+      <DisplayName>Kaelnium Foil</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Kaelnium.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>25</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\DrPlate.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.95</DropProbability>
+      <Health>53</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>0</MinimumOfferAmount>
+      <MaximumOfferAmount>0</MaximumOfferAmount>
+      <MinimumOrderAmount>0</MinimumOrderAmount>
+      <MaximumOrderAmount>0</MaximumOrderAmount>
+      <CanPlayerOrder>false</CanPlayerOrder>
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- RomuliteComponent -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>RomuliteComponent</SubtypeId>
+      </Id>
+      <DisplayName>Romulite Ring</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Romulite.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>26</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\FRing.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.95</DropProbability>
+      <Health>53</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>0</MinimumOfferAmount>
+      <MaximumOfferAmount>0</MaximumOfferAmount>
+      <MinimumOrderAmount>0</MinimumOrderAmount>
+      <MaximumOrderAmount>0</MaximumOrderAmount>
+      <CanPlayerOrder>false</CanPlayerOrder>
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- AbraxiumComponent -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AbraxiumComponent</SubtypeId>
+      </Id>
+      <DisplayName>Abraxium Catalyzer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Abraxium.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>26</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\KlCatalyzer.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.95</DropProbability>
+      <Health>53</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>0</MinimumOfferAmount>
+      <MaximumOfferAmount>0</MaximumOfferAmount>
+      <MinimumOrderAmount>0</MinimumOrderAmount>
+      <MaximumOrderAmount>0</MaximumOrderAmount>
+      <CanPlayerOrder>false</CanPlayerOrder>
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- ObliviumComponent -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ObliviumComponent</SubtypeId>
+      </Id>
+      <DisplayName>Oblivium Sample</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Oblivium.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>26</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>500</MaxIntegrity>
+      <DropProbability>0.95</DropProbability>
+      <Health>53</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>0</MinimumOfferAmount>
+      <MaximumOfferAmount>0</MaximumOfferAmount>
+      <MinimumOrderAmount>0</MinimumOrderAmount>
+      <MaximumOrderAmount>0</MaximumOrderAmount>
+      <CanPlayerOrder>false</CanPlayerOrder>
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+
+    <!-- DraconiumComponent -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>DraconiumComponent</SubtypeId>
+      </Id>
+      <DisplayName>Draconium Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Draconium.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\TauPlate2.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>750</MaxIntegrity>
+      <DropProbability>0</DropProbability>
+      <Health>53</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>0</MinimumOfferAmount>
+      <MaximumOfferAmount>0</MaximumOfferAmount>
+      <MinimumOrderAmount>0</MinimumOrderAmount>
+      <MaximumOrderAmount>0</MaximumOrderAmount>
+      <CanPlayerOrder>false</CanPlayerOrder>
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+	
+	
+    <!-- KaelniumAlloyComponent -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>KaelniumAlloyComponent</SubtypeId>
+      </Id>
+      <DisplayName>Kaelnium Alloy Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_KaelniumAlloy.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>25</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\DrPlate.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.95</DropProbability>
+      <Health>53</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>0</MinimumOfferAmount>
+      <MaximumOfferAmount>0</MaximumOfferAmount>
+      <MinimumOrderAmount>0</MinimumOrderAmount>
+      <MaximumOrderAmount>0</MaximumOrderAmount>
+      <CanPlayerOrder>false</CanPlayerOrder>
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+	
+    <!-- EpsiliteAlloyComponent -->
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>EpsiliteAlloyComponent</SubtypeId>
+      </Id>
+      <DisplayName>Epsilite Alloy Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_EpsiliteAlloy.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>25</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\DrPlate.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.95</DropProbability>
+      <Health>53</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>0</MinimumOfferAmount>
+      <MaximumOfferAmount>0</MaximumOfferAmount>
+      <MinimumOrderAmount>0</MinimumOrderAmount>
+      <MaximumOrderAmount>0</MaximumOrderAmount>
+      <CanPlayerOrder>false</CanPlayerOrder>
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+	
+    <!-- DiamondComponent 
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>DiamondComponent</SubtypeId>
+      </Id>
+      <DisplayName>Cut Diamond</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Epsilite.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Cut_Diamond.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>250</MaxIntegrity>
+      <DropProbability>0.95</DropProbability>
+      <Health>53</Health>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>0</MinimumOfferAmount>
+      <MaximumOfferAmount>0</MaximumOfferAmount>
+      <MinimumOrderAmount>0</MinimumOrderAmount>
+      <MaximumOrderAmount>0</MaximumOrderAmount>
+      <CanPlayerOrder>false</CanPlayerOrder>
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>-->
+	
+	
+  </Components>
+</Definitions>

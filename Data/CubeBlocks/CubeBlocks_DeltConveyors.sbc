@@ -1,0 +1,342 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>ConveyorConnector</TypeId>
+				<SubtypeId>DeltaConveyorStraightArmored</SubtypeId>
+			</Id>
+			<DisplayName>Delteurium Conveyor Straight Armored</DisplayName>
+			<Description>Description_ConveyorTube</Description>
+			<Icon>Textures\DeltConveyorStraight.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Delterium Conveyor Straight.mwm</Model>
+			<Components>
+				<Component Subtype="DelteuriumComponent" Count="10" />
+				<Component Subtype="InteriorPlate" Count="10" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="SmallTube" Count="12" />
+				<Component Subtype="Motor" Count="6" />
+				<Component Subtype="InteriorPlate" Count="4" />
+				<Component Subtype="DelteuriumComponent" Count="10" />
+			  </Components>
+			  <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Delterium Conveyor Straight_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Delterium Conveyor Straight_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Delterium Conveyor Straight_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>DeltaConveyorStraightArmored</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>10</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>ConveyorConnector</TypeId>
+				<SubtypeId>DeltaConveyorCornerArmored</SubtypeId>
+			</Id>
+			<DisplayName>Delteurium Conveyor Corner Armored</DisplayName>
+			<Description>Description_ConveyorTube</Description>
+			<Icon>Textures\DeltConveyorCorner.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Delterium Conveyor Corner.mwm</Model>
+			<Components>
+				<Component Subtype="DelteuriumComponent" Count="10" />
+				<Component Subtype="InteriorPlate" Count="10" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="SmallTube" Count="12" />
+				<Component Subtype="Motor" Count="6" />
+				<Component Subtype="InteriorPlate" Count="4" />
+				<Component Subtype="DelteuriumComponent" Count="10" />
+			  </Components>
+			  <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Delterium Conveyor Corner_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Delterium Conveyor Corner_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Delterium Conveyor Corner_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>DeltaConveyorCornerArmored</BlockPairName>
+			<MirroringX>MinusHalfY</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>10</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>		
+
+		<Definition>
+			<Id>
+				<TypeId>Conveyor</TypeId>
+				<SubtypeId>DeltaConveyorTArmored</SubtypeId>
+			</Id>
+			<DisplayName>Delteurium Conveyor T Armored</DisplayName>
+			<Description>Description_ConveyorTube</Description>
+			<Icon>Textures\DeltConveyorT.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Delterium Conveyor T.mwm</Model>
+			<Components>
+				<Component Subtype="DelteuriumComponent" Count="10" />
+				<Component Subtype="InteriorPlate" Count="10" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="SmallTube" Count="12" />
+				<Component Subtype="Motor" Count="6" />
+				<Component Subtype="InteriorPlate" Count="4" />
+				<Component Subtype="DelteuriumComponent" Count="10" />
+			  </Components>
+			  <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Delterium Conveyor T_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Delterium Conveyor T_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Delterium Conveyor T_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>DeltaConveyorTArmored</BlockPairName>
+			<MirroringZ>X</MirroringZ>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>15</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>		
+
+		<Definition>
+			<Id>
+				<TypeId>Conveyor</TypeId>
+				<SubtypeId>DeltaConveyorXArmored</SubtypeId>
+			</Id>
+			<DisplayName>Delteurium Conveyor X Armored</DisplayName>
+			<Description>Description_ConveyorTube</Description>
+			<Icon>Textures\DeltConveyorX.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Delterium Conveyor X.mwm</Model>
+			<Components>
+				<Component Subtype="DelteuriumComponent" Count="10" />
+				<Component Subtype="InteriorPlate" Count="10" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="SmallTube" Count="12" />
+				<Component Subtype="Motor" Count="6" />
+				<Component Subtype="InteriorPlate" Count="4" />
+				<Component Subtype="DelteuriumComponent" Count="10" />
+			  </Components>
+			  <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Delterium Conveyor X_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Delterium Conveyor X_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Delterium Conveyor X_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>DeltaConveyorXArmored</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>20</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>		
+
+		<Definition>
+			<Id>
+				<TypeId>Conveyor</TypeId>
+				<SubtypeId>DeltaConveyorElbowArmored</SubtypeId>
+			</Id>
+			<DisplayName>Delteurium Conveyor Elbow Armored</DisplayName>
+			<Description>Description_ConveyorTube</Description>
+			<Icon>Textures\DeltConveyorElbow.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Delterium Conveyor Elbow.mwm</Model>
+			<Components>
+				<Component Subtype="DelteuriumComponent" Count="10" />
+				<Component Subtype="InteriorPlate" Count="10" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="SmallTube" Count="12" />
+				<Component Subtype="Motor" Count="6" />
+				<Component Subtype="InteriorPlate" Count="4" />
+				<Component Subtype="DelteuriumComponent" Count="10" />
+			  </Components>
+			  <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Delterium Conveyor Elbow_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Delterium Conveyor Elbow_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Delterium Conveyor Elbow_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>DeltaConveyorElbowArmored</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringY>XHalfY</MirroringY>
+			<MirroringZ>MinusHalfY</MirroringZ>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>15</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>		
+
+		<Definition>
+			<Id>
+				<TypeId>Conveyor</TypeId>
+				<SubtypeId>DeltaConveyorElbowPassArmored</SubtypeId>
+			</Id>
+			<DisplayName>Delteurium Conveyor Elbow Passthrough Armored</DisplayName>
+			<Description>Description_ConveyorTube</Description>
+			<Icon>Textures\DeltConveyorElbowPass.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Delt Conveyor Elbow Pass.mwm</Model>
+			<Components>
+				<Component Subtype="DelteuriumComponent" Count="10" />
+				<Component Subtype="InteriorPlate" Count="10" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="SmallTube" Count="12" />
+				<Component Subtype="Motor" Count="6" />
+				<Component Subtype="InteriorPlate" Count="4" />
+				<Component Subtype="DelteuriumComponent" Count="10" />
+			  </Components>
+			  <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Delt Conveyor Elbow Pass_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Delt Conveyor Elbow Pass_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Delt Conveyor Elbow Pass_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>DeltaConveyorElbowPassArmored</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>20</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>Conveyor</TypeId>
+				<SubtypeId>DeltaConveyorEndCapArmored</SubtypeId>
+			</Id>
+			<DisplayName>Delteurium Conveyor Endcap Armored</DisplayName>
+			<Description>Description_ConveyorTube</Description>
+			<Icon>Textures\DeltConveyorElbowEnd.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Delt Conveyor Elbow End.mwm</Model>
+			<Components>
+				<Component Subtype="DelteuriumComponent" Count="10" />
+				<Component Subtype="InteriorPlate" Count="10" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="SmallTube" Count="12" />
+				<Component Subtype="Motor" Count="6" />
+				<Component Subtype="InteriorPlate" Count="4" />
+				<Component Subtype="DelteuriumComponent" Count="10" />
+			  </Components>
+			  <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Delt Conveyor Elbow End_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Delt Conveyor Elbow End_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Delt Conveyor Elbow End_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>DeltaConveyorEndCapArmored</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>X</MirroringY>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>25</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>		
+
+		<Definition>
+			<Id>
+				<TypeId>Conveyor</TypeId>
+				<SubtypeId>DeltaConveyorJunctionArmored</SubtypeId>
+			</Id>
+			<DisplayName>Delteurium Conveyor Junction Armored</DisplayName>
+			<Description>Description_ConveyorTube</Description>
+			<Icon>Textures\DeltConveyorElbowEnd.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Delterium Conveyor Junction.mwm</Model>
+			<Components>
+				<Component Subtype="DelteuriumComponent" Count="10" />
+				<Component Subtype="InteriorPlate" Count="10" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="SmallTube" Count="12" />
+				<Component Subtype="Motor" Count="6" />
+				<Component Subtype="InteriorPlate" Count="4" />
+				<Component Subtype="DelteuriumComponent" Count="10" />
+			  </Components>
+			  <CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Delterium Conveyor Junction_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Delterium Conveyor Junction_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Delterium Conveyor Junction_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>DeltaConveyorJunctionArmored</BlockPairName>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<PCU>450</PCU>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+			<Id>
+			  <TypeId>ConveyorSorter</TypeId>
+			  <SubtypeId>DeltaLargeBlockConveyorSorter</SubtypeId>
+			</Id>
+			<DisplayName>Delteurium Conveyor Sorter</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\ConveyorSorterLarge.dds</Icon>
+			<Description>Description_ConveyorSorter</Description>
+			<CubeSize>Large</CubeSize>
+			  <GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\ConveyorSorter.mwm</Model>
+			<Components>
+			  <Component Subtype="DelteuriumComponent" Count="20" />
+			  <Component Subtype="Construction" Count="100" />
+			  <Component Subtype="SmallTube" Count="50" />
+			  <Component Subtype="Computer" Count="20" />
+			  <Component Subtype="Motor" Count="2" />
+			  <Component Subtype="Construction" Count="20" />
+			  <Component Subtype="DelteuriumComponent" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+			  <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorSorterConstruction_1.mwm" />
+			  <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorSorterConstruction_2.mwm" />
+			  <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorSorterConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>DeltaConveyorSorter</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>20</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<ResourceSinkGroup>Conveyors</ResourceSinkGroup>
+			<PowerInput>0.00025</PowerInput>
+			<InventorySize>
+			  <X>1</X>
+			  <Y>1</Y>
+			  <Z>1</Z>
+			</InventorySize>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>25</PCU>      
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+			<IsAirTight>true</IsAirTight>
+		  </Definition>		
+	</CubeBlocks>
+</Definitions>

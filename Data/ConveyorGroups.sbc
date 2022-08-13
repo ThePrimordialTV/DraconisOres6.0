@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Id>
+      <TypeId>GuiBlockCategoryDefinition</TypeId>
+      <SubtypeId/>
+    </Id>
+    <DisplayName>Delteurium Conveyors</DisplayName>
+    <Name>Delteurium Conveyors</Name>
+    <ItemIds>
+      <string>ConveyorConnector/DeltaConveyorStraightArmored</string>
+      <string>ConveyorConnector/DeltaConveyorCornerArmored</string>
+      <string>Conveyor/DeltaConveyorTArmored</string>
+      <string>Conveyor/DeltaConveyorXArmored</string>
+      <string>Conveyor/DeltaConveyorElbowArmored</string>
+      <string>Conveyor/DeltaConveyorElbowPassArmored</string>
+      <string>Conveyor/DeltaConveyorEndCapArmored</string>
+      <string>Conveyor/DeltaConveyorJunctionArmored</string>      
+    </ItemIds>
+  </Category>
+
+  <BlockVariantGroups>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Delteurium Conveyors" />
+      <Icon>Textures\DeltConveyorElbow.png</Icon>
+      <DisplayName>Delteurium Conveyors</DisplayName>
+      <Description>Description_ConveyorTube</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="DeltaConveyorStraightArmored" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="DeltaConveyorCornerArmored" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="DeltaConveyorTArmored" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="DeltaConveyorXArmored" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="DeltaConveyorElbowArmored" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="DeltaConveyorElbowPassArmored" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="DeltaConveyorEndCapArmored" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="DeltaConveyorJunctionArmored" />
+      </Blocks>
+    </BlockVariantGroup>
+  </BlockVariantGroups>
+</Definitions>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>MB_ArmourPlate_Large</SubtypeId>
+      </Id>
+      <DisplayName>250mm Armor Plate</DisplayName>
+      <Icon>Textures\Icons\MB_ArmourPlateSingle.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ArmorPlate\LG_SD_ArmorPlate_O.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="135" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ArmorPlate\LG_SD_ArmorPlate_O_BS1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MB_ArmourPlateSingle</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <GeneralDamageMultiplier>0.5714</GeneralDamageMultiplier>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DisassembleRatio>2</DisassembleRatio>
+      <MirroringY>Z</MirroringY>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>MB_ArmourPlate_Small</SubtypeId>
+      </Id>
+      <DisplayName>50mm Armor Plate</DisplayName>
+      <Icon>Textures\Icons\MB_ArmourPlateSingle.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ArmorPlate\SG_SD_ArmorPlate_O.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ArmorPlate\SG_SD_ArmorPlate_O_BS1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MB_ArmourPlateSingle</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <GeneralDamageMultiplier>0.5714</GeneralDamageMultiplier>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2</DisassembleRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>MB_ArmourPlateCorner_Large</SubtypeId>
+      </Id>
+      <DisplayName>250mm Armor Plate Corner</DisplayName>
+      <Icon>Textures\Icons\MB_ArmourPlateCorner.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ArmorPlate\LG_SD_ArmorPlate_Corner.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="135" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ArmorPlate\LG_SD_ArmorPlate_Corner_BS1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MB_ArmourPlateCorner</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <GeneralDamageMultiplier>0.5714</GeneralDamageMultiplier>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DisassembleRatio>2</DisassembleRatio>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <MirroringY>ZHalfY</MirroringY>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>MB_ArmourPlateCorner_Small</SubtypeId>
+      </Id>
+      <DisplayName>50mm Armor Plate Corner</DisplayName>
+      <Icon>Textures\Icons\MB_ArmourPlateCorner.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ArmorPlate\SG_SD_ArmorPlate_Corner.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ArmorPlate\SG_SD_ArmorPlate_Corner_BS1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MB_ArmourPlateCorner</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <GeneralDamageMultiplier>0.5714</GeneralDamageMultiplier>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2</DisassembleRatio>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <MirroringY>ZHalfY</MirroringY>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>MB_ArmourPlateEdge_Large</SubtypeId>
+      </Id>
+      <DisplayName>250mm Armor Plate Edge</DisplayName>
+      <Icon>Textures\Icons\MB_ArmourPlateEdge.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ArmorPlate\LG_SD_ArmorPlate_Edge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="135" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ArmorPlate\LG_SD_ArmorPlate_Edge_BS1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MB_ArmourPlateEdge</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <GeneralDamageMultiplier>0.5714</GeneralDamageMultiplier>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DisassembleRatio>2</DisassembleRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>MB_ArmourPlateEdge_Small</SubtypeId>
+      </Id>
+      <DisplayName>50mm Armor Plate Edge</DisplayName>
+      <Icon>Textures\Icons\MB_ArmourPlateEdge.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ArmorPlate\SG_SD_ArmorPlate_Edge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ArmorPlate\SG_SD_ArmorPlate_Edge_BS1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MB_ArmourPlateEdge</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <GeneralDamageMultiplier>0.5714</GeneralDamageMultiplier>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2</DisassembleRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>MB_ArmourPlateCenter_Large</SubtypeId>
+      </Id>
+      <DisplayName>250mm Armor Plate Center</DisplayName>
+      <Icon>Textures\Icons\MB_ArmourPlateCenter.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ArmorPlate\LG_SD_ArmorPlate_X.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="135" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ArmorPlate\LG_SD_ArmorPlate_X_BS1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MB_ArmourPlateCenter</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <GeneralDamageMultiplier>0.5714</GeneralDamageMultiplier>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DisassembleRatio>2</DisassembleRatio>
+      <MirroringY>Z</MirroringY>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>MB_ArmourPlateCenter_Small</SubtypeId>
+      </Id>
+      <DisplayName>50mm Armor Plate Center</DisplayName>
+      <Icon>Textures\Icons\MB_ArmourPlateCenter.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ArmorPlate\SG_SD_ArmorPlate_X.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.06" />
+        <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\ArmorPlate\SG_SD_ArmorPlate_X_BS1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MB_ArmourPlateCenter</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <GeneralDamageMultiplier>0.5714</GeneralDamageMultiplier>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2</DisassembleRatio>
+      <MirroringY>Z</MirroringY>
+    </Definition>
+
+  </CubeBlocks>
+  <BlockPositions>
+
+  </BlockPositions>
+</Definitions>

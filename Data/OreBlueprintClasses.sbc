@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Exotic</SubtypeId>
+			</Id>
+            <DisplayName>Exotic Modded Components</DisplayName>
+            <Description>Exotic Modded Components</Description>
+            <Icon>Textures\GUI\Icons\component\comp_EpsiliteAlloy.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\component\comp_EpsiliteAlloy.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\component\comp_EpsiliteAlloy.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+</BlueprintClasses>
+
+  <BlueprintClassEntries>
+    
+<!-- REGION Tautanium -->
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeBlockTautaniumArmorBlock" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeBlockTautaniumArmorCorner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeBlockTautaniumArmorCornerInv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeBlockTautaniumArmorSlope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeBlockTautaniumArmorRoundedSlope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeBlockTautaniumArmorRoundedCorner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeBlockTautaniumArmorAngledSlope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeBlockTautaniumArmorAngledCorner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeBlockTautaniumArmorRoundSlope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeBlockTautaniumArmorRoundCorner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeBlockTautaniumArmorRoundCornerInv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeRoundTautaniumArmor_Corner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeRoundTautaniumArmor_CornerInv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Tautanium/LargeRoundTautaniumArmor_Slope" />
+
+    <!-- Ingots/Components -->
+    <Entry Class="Ingots" BlueprintSubtypeId="TautaniumToIngot" />
+	  <Entry Class="Exotic" BlueprintSubtypeId="TautaniumToComponent" />
+
+<!-- REGION Delteurium -->
+      <Entry Class="LargeBlocks" BlueprintSubtypeId="Delteurium/LargeHeavyBlockDelteuriumArmorRoundedSlope" />
+      <Entry Class="LargeBlocks" BlueprintSubtypeId="Delteurium/LargeHeavyBlockDelteuriumArmorRoundedCorner" />
+      <Entry Class="LargeBlocks" BlueprintSubtypeId="Delteurium/LargeHeavyBlockDelteuriumArmorAngledSlope" />
+      <Entry Class="LargeBlocks" BlueprintSubtypeId="Delteurium/LargeHeavyBlockDelteuriumArmorAngledCorner" />
+      <Entry Class="LargeBlocks" BlueprintSubtypeId="Delteurium/LargeHeavyBlockDelteuriumArmorRoundSlope" />
+      <Entry Class="LargeBlocks" BlueprintSubtypeId="Delteurium/LargeHeavyBlockDelteuriumArmorRoundCorner" />
+      <Entry Class="LargeBlocks" BlueprintSubtypeId="Delteurium/LargeHeavyBlockDelteuriumArmorRoundCornerInv" />
+      <Entry Class="LargeBlocks" BlueprintSubtypeId="Delteurium/LargeHeavyBlockDelteuriumArmorBlock" />
+      <Entry Class="LargeBlocks" BlueprintSubtypeId="Delteurium/LargeHeavyBlockDelteuriumArmorCorner" />
+      <Entry Class="LargeBlocks" BlueprintSubtypeId="Delteurium/LargeHeavyBlockDelteuriumArmorCornerInv" />
+      <Entry Class="LargeBlocks" BlueprintSubtypeId="Delteurium/LargeHeavyBlockDelteuriumArmorSlope" />
+
+      <!-- Ingots/Components -->
+      <Entry Class="Ingots" BlueprintSubtypeId="DelteuriumToIngot" />
+      <Entry Class="Exotic" BlueprintSubtypeId="DelteuriumToComponent" />
+
+<!-- REGION Epsilite -->
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x1Flat" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x1FlatInv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x1Face" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x1Inv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x1Side" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x1SideInv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x1Slope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x2Flat" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x2FlatInv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x2Face" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x2Inv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x2SideLeft" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x2SideLeftInv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x2SideRight" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x2SideRightInv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window1x2Slope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window2x3Flat" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window2x3FlatInv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window3x3Flat" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Epsilite/Window3x3FlatInv" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x1Flat" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x1FlatInv" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x1Side" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x1SideInv" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x1Face" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x1Inv" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x1Slope" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x2Flat" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x2FlatInv" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x2Inv" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x2Face" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x2SideLeft" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x2SideLeftInv" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x2SideRight" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x2SideRightInv" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow1x2Slope" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow2x3Flat" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow2x3FlatInv" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow3x3Flat" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Epsilite/SmallWindow3x3FlatInv" />
+	
+	<Entry Class="Ingots" BlueprintSubtypeId="KaelniumToIngot" />
+    <Entry Class="Exotic" BlueprintSubtypeId="KaelniumToComponent" />
+    <Entry Class="Exotic" BlueprintSubtypeId="KaelniumToAlloyComponent" />
+
+
+    <!-- Ingots/Components -->
+    <Entry Class="Ingots" BlueprintSubtypeId="EpsiliteToIngot" />
+    <Entry Class="Exotic" BlueprintSubtypeId="EpsiliteToComponent" />
+    <Entry Class="Exotic" BlueprintSubtypeId="EpsiliteToAlloyComponent" />
+
+    <!-- Ingots/Components -->
+    <Entry Class="Ingots" BlueprintSubtypeId="RomuliteToIngot" />
+    <Entry Class="ExoticWIP" BlueprintSubtypeId="RomuliteToComponent" />
+    
+    <!-- Ingots/Components -->
+    <Entry Class="Ingots" BlueprintSubtypeId="AbraxiumToIngot" />
+    <Entry Class="ExoticWIP" BlueprintSubtypeId="AbraxiumToComponent" />
+
+    <!-- Ingots/Components -->
+    <Entry Class="Ingots" BlueprintSubtypeId="ObliviumToIngot" />
+    <Entry Class="ExoticWIP" BlueprintSubtypeId="ObliviumToComponent" />
+	
+    <!-- Ingots/Components -->
+    <Entry Class="Ingots" BlueprintSubtypeId="DiamondToIngot" />
+	<!-- <Entry Class="Components" BlueprintSubtypeId="DiamondToComponent" />-->
+
+
+  </BlueprintClassEntries>
+</Definitions>

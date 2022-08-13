@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <!-- Tautanium -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TautaniumToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Tautanium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_Tautanium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Tautanium" />
+      </Prerequisites>
+      <Result Amount="1.1" TypeId="Ingot" SubtypeId="TautaniumIngot" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TautaniumToComponent</SubtypeId>
+      </Id>
+      <DisplayName>Tautanium Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Tautanium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="TautaniumIngot" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TautaniumComponent" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Delteurium -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DelteuriumToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Delteurium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_Delteurium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Delteurium" />
+      </Prerequisites>
+      <Result Amount="1.1" TypeId="Ingot" SubtypeId="DelteuriumIngot" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DelteuriumToComponent</SubtypeId>
+      </Id>
+      <DisplayName>Delteurium Rod</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Delteurium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="DelteuriumIngot" />
+
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="DelteuriumComponent" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Epsilite -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>EpsiliteToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Epsilite Crystal</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_Epsilite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Epsilite" />
+      </Prerequisites>
+      <Result Amount="1.1" TypeId="Ingot" SubtypeId="EpsiliteIngot" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>EpsiliteToComponent</SubtypeId>
+      </Id>
+      <DisplayName>Epsilite Glass</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Epsilite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="EpsiliteIngot" />
+
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="EpsiliteComponent" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>EpsiliteToAlloyComponent</SubtypeId>
+      </Id>
+      <DisplayName>Epsilite Alloy Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_EpsiliteAlloy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="EpsiliteIngot" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="DiamondIngot" />
+
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="EpsiliteAlloyComponent" />
+      <BaseProductionTimeInSeconds>17</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<!-- Kaelnium -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>KaelniumToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Kaelnium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\sodium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Kaelnium" />
+      </Prerequisites>
+      <Result Amount="1.1" TypeId="Ingot" SubtypeId="KaelniumIngot" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>KaelniumToComponent</SubtypeId>
+      </Id>
+      <DisplayName>Kaelnium Foil</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\sodium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="KaelniumIngot" />
+
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="KaelniumComponent" />
+      <BaseProductionTimeInSeconds>17</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>KaelniumToAlloyComponent</SubtypeId>
+      </Id>
+      <DisplayName>Kaelnium Alloy Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_KaelniumAlloy.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="KaelniumIngot" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="DiamondIngot" />
+
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="KaelniumAlloyComponent" />
+      <BaseProductionTimeInSeconds>17</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Romulite -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RomuliteToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Romulite Pellet</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_Romulite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Romulite" />
+      </Prerequisites>
+      <Result Amount="0.7" TypeId="Ingot" SubtypeId="RomuliteIngot" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>RomuliteToComponent</SubtypeId>
+      </Id>
+      <DisplayName>Romulite Ring</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Romulite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="RomuliteIngot" />
+
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="RomuliteComponent" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Abraxium -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AbraxiumToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Abraxium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_Abraxium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Abraxium" />
+      </Prerequisites>
+      <Result Amount="0.35" TypeId="Ingot" SubtypeId="AbraxiumIngot" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Oblivium -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ObliviumToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Oblivium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_Oblivium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Oblivium" />
+      </Prerequisites>
+      <Result Amount="0.7" TypeId="Ingot" SubtypeId="ObliviumIngot" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ObliviumToComponent</SubtypeId>
+      </Id>
+      <DisplayName>Oblivium Sample</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Oblivium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="ObliviumIngot" />
+
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ObliviumComponent" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Draconium -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DraconiumToComponent</SubtypeId>
+      </Id>
+      <DisplayName>Draconium Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\comp_Draconium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="TautaniumIngot" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="DelteuriumIngot" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="EpsiliteIngot" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="RomuliteIngot" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="ObliviumIngot" />
+
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="DraconiumComponent" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+    <!-- Diamond -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DiamondToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Rough Diamond</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Diamond_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Diamond" />
+      </Prerequisites>
+      <Result Amount="1.1" TypeId="Ingot" SubtypeId="DiamondIngot" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DiamondToComponent</SubtypeId>
+      </Id>
+      <DisplayName>Cut Diamond</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\sodium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="DiamondIngot" />
+
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="DiamondComponent" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>
