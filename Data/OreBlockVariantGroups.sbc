@@ -266,6 +266,105 @@
       </Blocks>
     </BlockVariantGroup>
 
+	  <BlockVariantGroup>
+		  <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EpsArmorHeavyCubeGroup" />
+		  <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+		  <DisplayName>Epsilite Alloy HeavyArmorBlock</DisplayName>
+		  <Description>Ballistic metal with hardness like Tautanium, but cold workability of Delteurium.</Description>
+		  <GuiVisible>false</GuiVisible>
+		  <Blocks>
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorBlock" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorSlope" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorCorner" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorCornerInv" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorCornerSquare" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorCornerSquareInverted" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorBlock" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorSlope" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorCorner" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorCornerInv" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorCornerSquare" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorCornerSquareInverted" />
+		  </Blocks>
+	  </BlockVariantGroup>
+
+	  <BlockVariantGroup>
+		  <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EpsArmorHeavyRampGroup" />
+		  <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
+		  <DisplayName>DEpsilite Alloy HeavyRampGroup</DisplayName>
+		  <Description>Ballistic metal with hardness like Tautanium, but cold workability of Delteurium.</Description>
+		  <Blocks>
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorSlope2Base" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorSlope2Tip" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeHalfHeavyArmorBlock" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeHalfSlopeHeavyArmorBlock" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorHalfSlopeCorner" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorHalfCorner" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorHalfSlopedCorner" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorSlope2Base" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorSlope2Tip" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsHalfHeavyArmorBlock" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsHalfSlopeHeavyArmorBlock" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorHalfSlopeCorner" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorHalfCorner" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorHalfSlopedCorner" />
+		  </Blocks>
+	  </BlockVariantGroup>
+
+	  <BlockVariantGroup>
+		  <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EpsArmorHeavyRampCornerGroup" />
+		  <Icon>Textures\GUI\Icons\Cubes\Corner2x1x1Base.dds</Icon>
+		  <DisplayName>Epsilite Alloy HeavyRampCornerGroup</DisplayName>
+		  <Description>Ballistic metal with hardness like Tautanium, but cold workability of Delteurium.</Description>
+		  <Blocks>
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorCorner2Base" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorCorner2Tip" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorInvCorner2Base" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorInvCorner2Tip" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorHalfSlopeCornerInverted" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorHalfSlopeInverted" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorCorner2Base" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorCorner2Tip" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorInvCorner2Base" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorInvCorner2Tip" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorHalfSlopeCornerInverted" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorHalfSlopeInverted" />
+		  </Blocks>
+	  </BlockVariantGroup>
+
+	  <BlockVariantGroup>
+		  <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EpsArmorHeavyRoundGroup" />
+		  <Icon>Textures\GUI\Icons\Cubes\RoundArmorSlope.dds</Icon>
+		  <DisplayName>Epsilite Alloy HeavyRoundArmorSlope</DisplayName>
+		  <Description>Ballistic metal with hardness like Tautanium, but cold workability of Delteurium.</Description>
+		  <Blocks>
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorRoundSlope" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorRoundCorner" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorRoundCornerInv" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorRoundSlope" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorRoundCorner" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorRoundCornerInv" />
+		  </Blocks>
+	  </BlockVariantGroup>
+
+	  <BlockVariantGroup>
+		  <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EpsHeavyArmorSlopedCornerGroup" />
+		  <Icon>Textures\GUI\Icons\Cubes\HeavySlopedCornerTip.dds</Icon>
+		  <DisplayName>Epsilite Alloy Heavy SlopedCornerTip</DisplayName>
+		  <Description>Ballistic metal with hardness like Tautanium, but cold workability of Delteurium.</Description>
+		  <Blocks>
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorSlopedCornerTip" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorSlopedCornerBase" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorSlopedCorner" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsLargeBlockHeavyArmorHalfSlopedCornerBase" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorSlopedCornerTip" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorSlopedCornerBase" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorSlopedCorner" />
+			  <Block Type="MyObjectBuilder_CubeBlock" Subtype="EpsSmallBlockHeavyArmorHalfSlopedCornerBase" />
+		  </Blocks>
+	  </BlockVariantGroup>
+	  
+
     <!-- Gases -->
 
     <!--<BlockVariantGroup>
